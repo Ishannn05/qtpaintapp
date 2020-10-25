@@ -148,6 +148,7 @@ void ScribbleArea::drawLineTo(const QPoint &endPoint)
     modified = true;
 
     int rad = (myPenWidth / 2) + 2;
+    //std::cout<<rad<<\n;//Debug message
 
     // Call to update the rectangular space where we drew
     update(QRect(lastPoint, endPoint).normalized()
