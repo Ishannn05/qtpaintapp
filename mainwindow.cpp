@@ -73,6 +73,7 @@ void MainWindow::about(){
     //first the title text then the about page text which can include html formating
 }
 
+/*All actions are created here. Add a new action under this function.*/
 void MainWindow::createAction(){
     openAct = new QAction(tr("&Open"), this); //creating an Open button for the user to click and tying it to this application
     openAct->setShortcut(QKeySequence::Open); //Setting a shortcut for open
